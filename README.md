@@ -1,6 +1,6 @@
 # 💰 Auto Finance App
 
-A simple and interactive finance dashboard built with **Streamlit** & **Pandas** to help you categorize and analyze your 💳 bank transaction data.
+A simple and interactive finance dashboard built with **Python**, **Streamlit** & **Pandas** to help you categorize and analyze your 💳 bank transaction data.
 
 ---
 
