@@ -12,13 +12,13 @@ A simple and interactive finance dashboard built with **Streamlit** & **Pandas**
 - 🧰 Frameworks & Libraries  
 - **Streamlit**  
   🚀 For building the interactive web app UI quickly and easily, with minimal frontend code.  
-  ### 3. 🐼 Pandas 
+-  🐼 Pandas 
   📊 For reading, manipulating, and processing transaction data in CSV files.  
-  ### 4. Plotly Express  
+-  Plotly Express  
   🥧 For creating interactive visualizations (like pie charts) to summarize expenses.  
 - **JSON** *(built-in)*  
   🗃️ To save and load category-to-keyword mappings persistently.  
-  ### 5. OS *(built-in)*  
+-  OS *(built-in)*  
   📁 For file system operations like checking if the categories file exists.
 
 ---
