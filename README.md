@@ -1,5 +1,6 @@
 # Auto Finance App
-A simple and interactive finance dashboard built with **Streamlit** to help you categorize and analyze your bank transaction data.
+A simple and interactive finance dashboard built with **Streamlit & Pandas** to help you categorize and analyze your bank transaction data.
+
 # Use to Build This Project
 
 1. Programming Language
@@ -7,13 +8,13 @@ Python — core language for building the app and data processing.
 2. Frameworks & Libraries
 Streamlit
 For building the interactive web app UI quickly and easily, with minimal frontend code.
-Pandas
+3. Pandas
 For reading, manipulating, and processing transaction data in CSV files.
-Plotly Express
+4. Plotly Express
 For creating interactive visualizations (like pie charts) to summarize expenses.
-JSON (built-in Python library)
+5. JSON (built-in Python library)
 To save and load category-to-keyword mappings persistently.
-OS (built-in Python library)
+6. OS (built-in Python library)
 For file system operations, like checking if the categories file exists.
 What You Build (Components & Features)
 
