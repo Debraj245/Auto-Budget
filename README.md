@@ -6,10 +6,10 @@ A simple and interactive finance dashboard built with **Streamlit** & **Pandas**
 
 ## 🛠️ Use to Build This Project
 
-### 1. 🐍 Programming Language  
+-  🐍 Programming Language  
 - **Python** — core language for building the app and handling data.
 
-### 2. 🧰 Frameworks & Libraries  
+- 🧰 Frameworks & Libraries  
 - **Streamlit**  
   🚀 For building the interactive web app UI quickly and easily, with minimal frontend code.  
   ### 3. 🐼 Pandas 
