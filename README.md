@@ -1,80 +1,74 @@
-# Auto Finance App
-A simple and interactive finance dashboard built with **Streamlit & Pandas** to help you categorize and analyze your bank transaction data.
+💰 Auto Finance App
 
-# Use to Build This Project
+A simple and interactive finance dashboard built with Streamlit & Pandas to help you categorize and analyze your 💳 bank transaction data.
 
-1. Programming Language
-Python — core language for building the app and data processing.
-2. Frameworks & Libraries
+🛠️ Use to Build This Project
+
+1. 🐍 Programming Language
+Python — core language for building the app and handling data.
+2. 🧰 Frameworks & Libraries
 Streamlit
-For building the interactive web app UI quickly and easily, with minimal frontend code.
+🚀 For building the interactive web app UI quickly and easily, with minimal frontend code.
 3. Pandas
-For reading, manipulating, and processing transaction data in CSV files.
+📊 For reading, manipulating, and processing transaction data in CSV files.
 4. Plotly Express
-For creating interactive visualizations (like pie charts) to summarize expenses.
-5. JSON (built-in Python library)
-To save and load category-to-keyword mappings persistently.
-6. OS (built-in Python library)
-For file system operations, like checking if the categories file exists.
-What You Build (Components & Features)
+🥧 For creating interactive visualizations (like pie charts) to summarize expenses.
+JSON (built-in)
+🗃️ To save and load category-to-keyword mappings persistently.
+5. OS (built-in)
+📁 For file system operations like checking if the categories file exists.
+🧱 What You Build (Components & Features)
 
-1. File Upload Component
-A Streamlit file uploader to allow users to upload their bank transaction CSV files.
-2. Data Loader & Parser
-Reads uploaded CSV, cleans data (e.g., removing commas in amounts), parses dates, and converts amounts to floats.
-3. Automatic Categorization Logic
-Categorizes transactions based on keywords associated with each category.
-Stores categories and keywords persistently in a JSON file.
-4. Category Management UI
-Allows users to add new categories dynamically.
-Allows editing transaction categories in a table-like data editor.
-5. Expense and Payment Tabs
-Separates transaction display into two tabs: Expenses (Debits) and Payments (Credits).
-6. Summary & Visualization
-Shows summary totals by category.
-Displays an interactive pie chart of expenses by category.
+📤 File Upload Component
+A Streamlit file uploader to upload your bank transaction CSV files.
+🧹 Data Loader & Parser
+Cleans and processes data — removes commas, parses dates, converts amounts.
+🧠 Automatic Categorization Logic
+Assigns categories to transactions using keyword matching stored in categories.json.
+🧮 Category Management UI
+Add new categories, edit existing ones using a spreadsheet-style interface.
+🧾 Expense and Payment Tabs
+Separate views for Debits (Expenses) and Credits (Payments).
+📊 Summary & Visualization
+View total expenses per category and an interactive pie chart.
+✨ Features
 
-## Features
+📂 Upload your transaction CSV files.
+🤖 Automatically categorize transactions with keyword logic.
+📝 Add new categories and keywords on the fly.
+🧾 Edit and update categories in an interactive table.
+📊 See summary reports and visual charts.
+🔀 Switch between Expenses and Payments tabs.
+💾 Persistent category data stored in categories.json.
+🧪 Usage
 
-- Upload your transaction CSV files.
-- Automatically categorize transactions based on customizable keyword lists.
-- Add new categories and keywords dynamically.
-- Edit and update transaction categories in a spreadsheet-like interface.
-- View summarized expense reports by category with interactive pie charts.
-- Separate tabs for viewing Expenses (Debits) and Payments (Credits).
-- Persistent storage of categories in a JSON file.
+Upload a CSV file with these columns: Date, Details, Amount, and Debit/Credit.
+Transactions are categorized automatically based on keywords.
+Add a new category with the text input + "Add Category" button.
+Use the editor to change a category and click "Apply Changes".
+View expenses in pie charts and payment totals in a clean layout.
+🧾 File Format
 
-## Usage
+Your CSV file should have the following columns:
 
-- Upload a CSV file containing your bank transactions. The CSV should have columns like Date, Details, Amount, and Debit/Credit.
-- The app automatically categorizes transactions based on keywords stored in categories.json.
-- Add new categories by typing the category name and clicking Add Category.
-- Edit transaction categories directly in the table and click Apply Changes to save and update keyword mappings.
-- View summaries of expenses and payments in separate tabs, along with visual pie charts for expenses.
-
-## File Format
-
-The CSV file should have at least the following columns:
-Column	Description
+📅 Column	📝 Description
 Date	Transaction date (e.g., 10 Jun 2025)
-Details	Transaction details/description
-Amount	Transaction amount (numbers only)
-Debit/Credit	Whether transaction is Debit or Credit
+Details	Description/details of the transaction
+Amount	Amount (e.g., 2500)
+Debit/Credit	Specify if it’s a Debit or Credit
+⚙️ Customization
 
-## Customization
+🔧 All category data is saved in categories.json.
+✍️ You can modify or reset it manually if needed.
+✅ Auto-updates when you categorize a new transaction.
+⚠️ Limitations & Notes
 
-Categories and their associated keywords are stored in categories.json. This file updates automatically as you add new keywords via the app.
-Modify or reset this file manually if needed.
+📄 PDF uploads are accepted but not yet parsed (coming soon).
+🔍 Keyword match is exact (not partial/fuzzy) on Details field.
+📋 Ensure your CSV matches the required format and column names.
+🚧 Future Improvements (In Progress)
 
-## Limitations & Notes
-
-Currently, PDF uploads are accepted in the uploader but not yet supported for parsing.
-The categorization matches keywords exactly in the Details column (case-insensitive). Partial matches are not currently supported.
-Ensure the CSV format matches the expected column names and date format.
-
-## For Future Improvements Is In Progress
-
-PDF transaction parsing.
-More advanced keyword matching (partial and fuzzy matching).
-Export categorized transactions and summaries.
-User authentication for multi-user support.
+📑 PDF transaction parsing.
+🔎 Smarter keyword matching (partial/fuzzy logic).
+📥 Export categorized data and summary reports.
+👤 User login & multi-user dashboard support.
